@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+</style>
+</head>
+<table>
+  <tr>
+    <td>Name:</td>
+    <td><input type="text" id="name" name="name"></td>
+  </tr>
+  <tr>
+    <td>Age:</td>
+    <td><input type="number" id="age" name="age"></td>
+  </tr>
+  <tr class="submit-cell">
+    <td colspan="2">
+      <button type="submit">Submit</button>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
